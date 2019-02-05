@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Image Source="http://mullsjoutveckling.se/wp-content/uploads/innovation_rund.jpg" HorizontalAlignment="Left" Height="131" VerticalAlignment="Top" Width="134" Margin="38,21,0,0"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="208,77,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="351,77,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="474,77,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="577,77,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="683,77,0,0" VerticalAlignment="Top" Width="75"/>
+        <ListBox HorizontalAlignment="Left" Height="156" Margin="147,157,0,0" VerticalAlignment="Top" Width="154"/>
+        <Menu HorizontalAlignment="Left" Height="100" Margin="462,168,0,0" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </Window>
