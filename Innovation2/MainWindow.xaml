@@ -12,8 +12,45 @@
         <Button Content="Button" HorizontalAlignment="Left" Margin="351,77,0,0" VerticalAlignment="Top" Width="75"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="474,77,0,0" VerticalAlignment="Top" Width="75"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="577,77,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="683,77,0,0" VerticalAlignment="Top" Width="75"/>
-        <ListBox HorizontalAlignment="Left" Height="156" Margin="147,157,0,0" VerticalAlignment="Top" Width="154"/>
-        <Menu HorizontalAlignment="Left" Height="100" Margin="462,168,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="683,77,0,0" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2"/>
+        <DockPanel DockPanel.Dock="Top">
+            <Menu Margin="0,0,0,394">
+                <MenuItem Header="_File">
+                    <MenuItem Header="_New..." />
+                    <Separator />
+                    <MenuItem Header="_Open..." />
+                    <Separator />
+                    <MenuItem Header="_Save" />
+                    <MenuItem Header="_Save As..." />
+                    <Separator />
+                    <MenuItem Header="_Exit" />
+                </MenuItem>
+            </Menu>
+
+        </DockPanel>
+        <StackPanel HorizontalAlignment="Right" Height="250" VerticalAlignment="Center" Width="200">
+            <TextBlock Height="Auto" HorizontalAlignment="Left" Name="LoginHeading" Text="Login:" VerticalAlignment="Top" FontSize="17" FontStretch="ExtraCondensed"/>
+            <TextBlock Height="Auto" HorizontalAlignment="Center" Name="textBlockHeading" VerticalAlignment="Top" FontSize="12" FontStyle="Italic" Padding="10" TextWrapping="Wrap">  
+            Note: Please login here to view the features of this site. If you are new on this site then
+            please click on  
+           <!--textblock as a Hyperlink.-->  
+            <TextBlock>  
+                 <Hyperlink FontSize="14" FontStyle="Normal">Register</Hyperlink> 
+            </TextBlock>  
+            <!--end textblock as a hyperlink-->  
+            button  
+        </TextBlock>
+            
+            <TextBlock Name="TextBlock1" Text="Email:" HorizontalAlignment="Center"/>
+            <TextBox Name="TextBox1" Width="130" HorizontalAlignment="Center"/> 
+            <TextBlock  Name="TextBlock2" Text="Password:" HorizontalAlignment="Center"/>
+            <PasswordBox x:Name="passwordBox" Width="130" HorizontalAlignment="Center"/>
+            <CheckBox Content="Remember me" HorizontalAlignment="Center"/>
+            <Button Content="Login" HorizontalAlignment="Center"/>
+
+
+
+        </StackPanel>
+
     </Grid>
 </Window>
