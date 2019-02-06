@@ -8,14 +8,15 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Image Source="http://mullsjoutveckling.se/wp-content/uploads/innovation_rund.jpg" HorizontalAlignment="Left" Height="131" VerticalAlignment="Top" Width="134"/>
+        <Image Source="https://politiken.dk/migration_catalog/article4604614.ece/ALTERNATES/p16x9_960/Tilbudsaviser" VerticalAlignment="Center" HorizontalAlignment="Center" Height="200" Width="360"/>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-        <Button Content="Punkt 1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Punkt 2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Punkt 3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Punkt 4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Punkt 5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
+            <Button Content="Punkt 1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
+            <Button Content="Punkt 2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
+            <Button Content="Punkt 3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
+            <Button Content="Punkt 4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
+            <Button Content="Punkt 5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
         </StackPanel>
-        
+
         <StackPanel HorizontalAlignment="Right" Height="250" VerticalAlignment="Center" Width="200">
             <TextBlock Height="Auto" HorizontalAlignment="Left" Name="LoginHeading" Text="Login:" VerticalAlignment="Top" FontSize="17" FontStretch="ExtraCondensed"/>
             <TextBlock Height="Auto" HorizontalAlignment="Center" Name="textBlockHeading" VerticalAlignment="Top" FontSize="12" FontStyle="Italic" Padding="10" TextWrapping="Wrap">  
@@ -28,9 +29,9 @@
             <!--end textblock as a hyperlink-->  
             button  
         </TextBlock>
-            
+
             <TextBlock Name="TextBlock1" Text="Email:" HorizontalAlignment="Center"/>
-            <TextBox Name="TextBox1" Width="130" HorizontalAlignment="Center"/> 
+            <TextBox Name="TextBox1" Width="130" HorizontalAlignment="Center"/>
             <TextBlock  Name="TextBlock2" Text="Password:" HorizontalAlignment="Center"/>
             <PasswordBox x:Name="passwordBox" Width="130" HorizontalAlignment="Center"/>
             <CheckBox Content="Remember me" HorizontalAlignment="Center"/>
@@ -39,6 +40,7 @@
 
 
         </StackPanel>
+        <TextBlock Height="43" Width="146" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="TextblockTilbud" FontSize="18" FontWeight="Bold" Margin="330,62,317.6,315"><Run Text=" "/><Run Text="Tilbudsaviser"/></TextBlock>
 
     </Grid>
 </Window>
